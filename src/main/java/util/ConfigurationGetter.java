@@ -15,7 +15,9 @@ public class ConfigurationGetter {
             FileInputStream propsInput = new FileInputStream(configFilePath);
             Properties prop = new Properties();
             prop.load(propsInput);
-            propsList.put("URL", prop.getProperty("URL"));
+            propsList.put("DOG_URL", prop.getProperty("DOG_URL"));
+            propsList.put("CAT_URL", prop.getProperty("CAT_URL"));
+            propsList.put("API_KEY", prop.getProperty("API_KEY"));
             propsList.put("cacheTTL", prop.getProperty("cacheTTL"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();

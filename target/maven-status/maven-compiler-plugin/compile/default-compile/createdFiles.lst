@@ -1,4 +1,9 @@
+org\qualityscore\QualityScoreService.class
+model\Dog.class
+model\Cat.class
+util\ConfigurationGetter.class
+org\qualityscore\QualityScoreService$1.class
 org\qualityscore\Main.class
 org\qualityscore\WebConfiguration.class
-util\ConfigurationGetter.class
+org\qualityscore\QualityScoreService$2.class
 org\qualityscore\QualityScoreController.class
