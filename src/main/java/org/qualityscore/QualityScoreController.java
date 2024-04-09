@@ -22,7 +22,7 @@ public class QualityScoreController {
     HttpResponse<String> cachedResponse;
 
     @GetMapping("/")
-    public String index() {
+    public String getData() {
         if (getDataFromUrl(cachedResponse)) {
             String url = Main.configurationList.get("URL");
             HttpRequest request = HttpRequest.newBuilder()
