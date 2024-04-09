@@ -17,6 +17,7 @@ public class Main {
         PropertyConfigurator.configure(log4jConfPath);
         configurationList = ConfigurationGetter.getPropsFromConf();
         SpringApplication.run(Main.class, args);
+
     }
 
 }
